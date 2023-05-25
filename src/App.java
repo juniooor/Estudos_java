@@ -1,18 +1,24 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        int a;
-        int b = 2;
-        a = 3;
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("INFORME O SEU NOME");
+        String nome1 = sc.nextLine();
 
-        int soma = a + b;
-        int subtracao = a - b;
-        int mutiplicacao = a * b;
-        float divisao = (float)a / b;
+        System.out.println("INFORME SEU PRIMEIRO NOME");
+        String nome2=sc.nextLine();
+        System.out.println("Informe a sua Idade: ");
+        int idade = sc.nextInt();
+        System.out.println("Informe seu salario: ");
+        double salario = sc.nextDouble();
+        System.out.println("Informe a taxa: ");
+        float taxa = sc.nextFloat();
+        System.out.println("Informe o seu sexo:");
+        char sexo = sc.next().charAt(0);
 
-        System.out.println(soma);
-        System.out.println(subtracao);
-        System.out.println(mutiplicacao);
-        System.out.println(divisao);
+        sc.close();
 
-    }
+    }   
 }
