@@ -5,11 +5,11 @@ public class App {
         Cachorro cachorro1;
         cachorro1 = new Cachorro();
 
-        cachorro1.nome = "Cacau";
-        cachorro1.cor = "Marron";
-        cachorro1.altura = 40;
-        cachorro1.peso = 25.3;
-        cachorro1.tamanhoDoRabo = 30;
+        cachorro1.setNome("Cacau");
+        cachorro1.setCor("Marron");
+        cachorro1.setAltura(50);
+        cachorro1.setPeso(25.3);
+        cachorro1.setTamanhoDoRabo(30);
 
         cachorro1.latir();
         System.out.println(cachorro1.pegar()); 
