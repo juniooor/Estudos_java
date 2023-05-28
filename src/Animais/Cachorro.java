@@ -8,6 +8,17 @@ public class Cachorro{
     private int tamanhoDoRabo;
     private String estado;
 
+    
+
+    public Cachorro(String nome, String cor, int altura, double peso, int tamanhoDoRabo, String estado) {
+        this.nome = nome;
+        this.cor = cor;
+        this.altura = altura;
+        this.peso = peso;
+        this.tamanhoDoRabo = tamanhoDoRabo;
+        this.estado = estado;
+    }
+
     public String getNome() {
         return nome;
     }
