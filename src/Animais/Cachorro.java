@@ -1,14 +1,8 @@
 package Animais;
 
-public class Cachorro{
-    private String nome;
-    private String cor;
-    private int altura;
-    private double peso;
+public class Cachorro extends Animal{
     private int tamanhoDoRabo;
-    private String estado;
-
-    
+    static int numeroDeCachorros;
 
     public Cachorro(String nome, String cor, int altura, double peso, int tamanhoDoRabo, String estado) {
         this.nome = nome;
@@ -17,6 +11,8 @@ public class Cachorro{
         this.peso = peso;
         this.tamanhoDoRabo = tamanhoDoRabo;
         this.estado = estado;
+
+        numeroDeCachorros ++;
     }
 
     public String getNome() {
