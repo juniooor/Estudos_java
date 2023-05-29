@@ -62,8 +62,8 @@ public class Cachorro extends Animal{
     public void setEstado(String estado) {
         this.estado = estado;
     }
-
-    public void latir(){
+    @Override
+    public void soar(){
         System.out.println("AU AU AU!");
     }
 
